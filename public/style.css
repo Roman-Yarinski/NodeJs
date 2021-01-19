@@ -1,0 +1,24 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: brown;
+}
+
+#header {
+  text-align: center;
+}
+
+#todo-list {
+  border-top: 1px solid lightgray;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.todo-list__item {
+  margin: 0.5em;
+}
+
+.todo-list__item.completed {
+  color: lime;
+  text-decoration: line-through;
+}
